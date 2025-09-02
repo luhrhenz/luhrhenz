@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Detailed Expense Breakdown</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>💰 Expense Breakdown</>
+      <p>How $100 was spent across different categories</p>
+      <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+
+    <div class="total-budget">
+      <div class="total-amount">$100.00</div>
+      <div class="total-label">Total Budget</div>
+    </div>
+
+    <div class="categories">
+      <!-- Food Category -->
+      <div class="category">
+        <div class="category-header">
+          <div class="category-title">
+            <div class="category-icon food-icon">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <span>Food & Dining</span>
+          </div>
+          <div class="category-total">$40.00</div>
+        </div>
+
+        <div class="progress-container">
+          <div class="progress-bar food-progress" style="--progress-width: 100%; width: 100%;"></div>
+        </div>
+        <div class="progress-label">100% spent ($40.00)</div>
+
+        <div class="expenses-list">
+          <div class="expense-item food-item">
+            <span class="expense-description">Lunch at cafe</span>
+            <span class="expense-amount">$15.00</span>
+          </div>
+          <div class="expense-item food-item">
+            <span class="expense-description">Dinner with friends</span>
+            <span class="expense-amount">$20.00</span>
+          </div>
+          <div class="expense-item food-item">
+            <span class="expense-description">Morning coffee</span>
+            <span class="expense-amount">$5.00</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Transportation Category -->
+      <div class="category">
+        <div class="category-header">
+          <div class="category-title">
+            <div class="category-icon transport-icon">
+              <i class="fas fa-bus"></i>
+            </div>
+            <span>Transportation</span>
+          </div>
+          <div class="category-total">$30.00</div>
+        </div>
+
+        <div class="progress-container">
+          <div class="progress-bar transport-progress" style="--progress-width: 100%; width: 100%;"></div>
+        </div>
+        <div class="progress-label">100% spent ($30.00)</div>
+
+        <div class="expenses-list">
+          <div class="expense-item transport-item">
+            <span class="expense-description">Bus fare (weekly)</span>
+            <span class="expense-amount">$15.00</span>
+          </div>
+          <div class="expense-item transport-item">
+            <span class="expense-description">Gasoline</span>
+            <span class="expense-amount">$10.00</span>
+          </div>
+          <div class="expense-item transport-item">
+            <span class="expense-description">Parking fees</span>
+            <span class="expense-amount">$5.00</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Other Needs Category -->
+      <div class="category">
+        <div class="category-header">
+          <div class="category-title">
+            <div class="category-icon other-icon">
+              <i class="fas fa-shopping-bag"></i>
+            </div>
+            <span>Other Needs</span>
+          </div>
+          <div class="category-total">$30.00</div>
+        </div>
+
+        <div class="progress-container">
+          <div class="progress-bar other-progress" style="--progress-width: 100%; width: 100%;"></div>
+        </div>
+        <div class="progress-label">100% spent ($30.00)</div>
+
+        <div class="expenses-list">
+          <div class="expense-item other-item">
+            <span class="expense-description">Groceries</span>
+            <span class="expense-amount">$15.00</span>
+          </div>
+          <div class="expense-item other-item">
+            <span class="expense-description">Personal care items</span>
+            <span class="expense-amount">$8.00</span>
+          </div>
+          <div class="expense-item other-item">
+            <span class="expense-description">Miscellaneous expenses</span>
+            <span class="expense-amount">$7.00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="summary">
+      <div class="summary-item">
+        <span class="summary-label">Total Budget:</span>
+        <span class="summary-value">$100.00</span>
+      </div>
+      <div class="summary-item">
+        <span class="summary-label">Total Spent:</span>
+        <span class="summary-value total-spent">$100.00</span>
+      </div>
+      <div class="summary-item">
+        <span class="summary-label">Remaining:</span>
+        <span class="summary-value">$0.00</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @luhrhenz
-- 👀 I’m interested in the frontend part of this beautiful journey, love to build more twch relationships
-- 🌱 I’m currently learning html and css. when done i would move on to js.
+- 👀 I’m interested in the frontend part of this beautiful journey, love to build more tech relationships
+- 🌱 I’m currently done with HTML and css. Learning JavaScript now, but I can still build responsive and functional websites.
 - 💞️ I’m looking to collaborate with software developers who are interested in both web and app development.
 - 📫 How to reach me : I'm on twitter @luhrhenz
 - 😄 Pronouns: male😅
